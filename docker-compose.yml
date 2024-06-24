@@ -9,8 +9,8 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - ./config:/config
-      - ./gallery:/gallery
+      - config:/config
+      - gallery:/gallery
     ports:
       - 81:80
     restart: unless-stopped

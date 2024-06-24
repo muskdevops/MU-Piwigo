@@ -1,6 +1,0 @@
-2024/06/24 11:37:08 [error] 298#298: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on null in /app/www/public/include/dblayer/functions_mysqli.inc.php:88
-Stack trace:
-#0 /app/www/public/install.php(267): pwg_db_check_charset()
-#1 {main}
-  thrown in /app/www/public/include/dblayer/functions_mysqli.inc.php on line 88" while reading response header from upstream, client: 172.16.0.1, server: _, request: "POST /install.php?language=en_GB HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:81", referrer: "http://localhost:81/install.php"
-2024/06/24 11:37:31 [error] 298#298: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Mailer Error: Could not instantiate mail function. in /app/www/public/include/functions_mail.inc.php on line 923" while reading response header from upstream, client: 172.16.0.1, server: _, request: "POST /install.php?language=en_GB HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:81", referrer: "http://localhost:81/install.php"
